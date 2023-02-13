@@ -1,0 +1,21 @@
+.container {
+    width: 90%;
+    padding: 10px;
+    background: #ddd;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 250px;
+    height: 300px;
+    background: rgb(11, 141, 241);
+    margin: 0px 10px;
+    transition: 1s;
+}
+.box:hover {
+    transform: scale(1.5);
+    background: #ff800a;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
