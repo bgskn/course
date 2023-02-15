@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        p {
+            color: #000;
+            background-color: aqua;
+
+        }
+        .tabel2,.tabel2 tr,.tabel2 td, .tabel2 th{
+            border: 1px solid black;
+            border-collapse: collapse ;
+        }
+        .tabel2 th {
+            width: fit-content;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+    <p>Isi dengan sungguh sungguh</p>
+    <form action="" method="get" target="_blank">
+        <table>
+            <tr>
+                <td>Nama :</td>
+                <td><input id="name" type="text" placeholder="Nama"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir :</td>
+                <td><input id="tanggal lahir" type="date"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin :</td>
+                <td>
+                    <input id="laki-laki" name="jenis kelamin" type="radio" value="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                    <input id="perempuan" name="jenis kelamin" type="radio" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Pesan :</td>
+                <td>
+                    <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>    
+                <td colspan="2"><center><input type="submit" value="Submit"></center></td>
+            </tr>
+        </table>
+        <table class="tabel2">
+           <tr>
+            <th>Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>Pesan</th>
+            <th>Profile</th>
+            <th>Delete</th>
+           </tr>
+           <tr>
+            <td>Bagas</td>
+            <td>26 Desember 2001</td>
+            <td>Laki-laki</td>
+            <td>Lopyu</td>
+            <td><a href="">klik disini</a></td>
+            <td>sampah</td>
+           </tr>
+           <tr>
+            <td>Melysa</td>
+            <td>8 April 2004</td>
+            <td>Perempuan</td>
+            <td>Lopyu Too</td>
+            <td><a href="">klik disini</a></td>
+            <td>sampah</td>
+           </tr>
+           <tr>
+            <td>Bagas lagi</td>
+            <td>26 Desember 2001</td>
+            <td>Laki-laki</td>
+            <td>Missyu</td>
+            <td><a href="">klik disini</a></td>
+            <td>sampah</td>
+           </tr>
+           <tr>
+            <td>Melysa lagi</td>
+            <td>8 April 2004</td>
+            <td>Perempuan</td>
+            <td>MissYu Too</td>
+            <td><a href="">klik disini</a></td>
+            <td>sampah</td>
+           </tr>
+        </table>
+        <!-- <p><b>Apa Warna Favoritmu</b></p> 
+        <select name="" id="">
+            <option value="">merah</option>
+            <option value="">kuning</option>
+            <option selected value="">hijau</option>
+        </select>-->
+        <br>
+    </form>
+</body>
+</html>
